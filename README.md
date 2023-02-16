@@ -5,6 +5,7 @@ Write a C++ program that performs the following operations.
 ## Instructions:
 1. Create a child process using `fork()`.
 1. The child process should execute the command: `ls -l`.
+1. If the `option` number is even, the child executes `ls -l` otherwise the child terminates.
 1. The child process should print the parent process ID.
 1. The parent process should print the child process ID.
 1. The parent process should wait for the child process to finish.
@@ -19,4 +20,4 @@ Hints:
 
 Usage:
 
-`./main -n <number>`
+`./main -n <option>`
