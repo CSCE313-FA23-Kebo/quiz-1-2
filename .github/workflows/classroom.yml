@@ -1,0 +1,26 @@
+name: GitHub Classroom Workflow
+
+on: [push]
+
+jobs:
+  build:
+    permissions: write-all
+    name: Autograding
+    runs-on: self-hosted
+    steps:
+      - name: Check-in Student Repo
+        uses: actions/checkout@v2
+      
+      - name: Check-in Clean Test Collateral
+        uses: actions/checkout@v2
+        with:
+          repository: CSCE313-FA22-Kebo/public-tests
+          path: tests
+      
+      - name: Set-up Autograder Environment
+        run: |
+          mkdir .github/classroom/
+          cp tests/graders/grading_quiz1.json .github/classroom/autograding.json
+          cp tests/makefiles/makefile_quiz1 makefile
+      - name: Run Autograder
+        uses: education/autograding@v1

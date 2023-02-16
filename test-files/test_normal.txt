@@ -1,0 +1,5 @@
+printf "Hello from the child process!\n"
+printf "Child process is executing the command: ls -l after 6 seconds\n"
+ls -l
+printf "\nHello from the parent process!\n"
+printf "Child process exited normally\n"

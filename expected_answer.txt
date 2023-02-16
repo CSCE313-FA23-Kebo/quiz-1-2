@@ -1,0 +1,25 @@
+// FOR EXIT NORMALLY TEST
+Hello from the child process!
+The child process will execute the command: ls -l after 6 seconds
+total 156
+-rw-rw-r-- 1 minhdanhluu2000 minhdanhluu2000     32 Sep 15 02:03 README.md
+-rwxrwxr-x 1 minhdanhluu2000 minhdanhluu2000 136824 Sep 15 02:05 main
+-rw-rw-r-- 1 minhdanhluu2000 minhdanhluu2000   3179 Sep 15 02:04 main.cpp
+-rw-rw-r-- 1 minhdanhluu2000 minhdanhluu2000    405 Sep 15 02:03 makefile
+-rwxrwxr-x 1 minhdanhluu2000 minhdanhluu2000   1301 Sep 15 02:03 quiz1-tests.sh
+drwxrwxr-x 2 minhdanhluu2000 minhdanhluu2000   4096 Sep 15 02:03 test-files
+
+Hello from the parent process!
+The child process ID is 7391
+The child process exited normally
+
+
+
+
+// FOR EXIT WITH KILL TEST
+Hello from the child process!
+The child process is exiting
+
+Hello from the parent process!
+The child process ID is 7606
+The child process exited due to the kill signal

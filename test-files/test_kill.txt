@@ -1,0 +1,4 @@
+printf "Hello from the child process!\n"
+printf "Child process is exiting\n"
+printf "\nHello from the parent process!\n"
+printf "Child process exited due to the kill signal\n"
