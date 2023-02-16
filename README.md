@@ -1,4 +1,4 @@
-# quiz1.2
+# quiz 1.2
 Quiz 1.2: Fork + Exec
 Instructions:
 1. Create a child process using fork().
