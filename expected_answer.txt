@@ -1,5 +1,6 @@
 // FOR EXIT NORMALLY TEST
 Hello from the child process!
+The parent process ID is 4993
 The child process will execute the command: ls -l after 6 seconds
 total 156
 -rw-rw-r-- 1 minhdanhluu2000 minhdanhluu2000     32 Sep 15 02:03 README.md
@@ -18,6 +19,7 @@ The child process exited normally
 
 // FOR EXIT WITH KILL TEST
 Hello from the child process!
+The parent process ID is 6328
 The child process is exiting
 
 Hello from the parent process!
