@@ -18,4 +18,5 @@ Hints:
    - WIFSIGNALED returns true if the process terminated due to the kill signal.
 
 Usage:
-./main -n <number>
+
+```./main -n <number>```
