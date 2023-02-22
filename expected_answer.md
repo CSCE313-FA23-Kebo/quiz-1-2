@@ -1,4 +1,4 @@
-# Expected output for a child normal exit
+## Expected output for a child normal exit
 ```
 Hello from the child process!
 The parent process ID is 144420
@@ -18,7 +18,7 @@ The child process ID is 144421
 The child process exited normally
 ```
 
-# Expected output for a child termination
+## Expected output for a child termination
 ```
 Hello from the child process!
 The parent process ID is 145333
